@@ -109,11 +109,11 @@ def computeAverage(region, curSpotPriceDict):
             regionTotal += curRate
             numMarkets += 1
         avgZoneVal = Decimal(zoneTotal/numZoneMarkets)
-        print 'zone: ' + zone + '\t index-level = ' + str(round(avgZoneVal, 5))
+        print 'zone: ' + zone + '\t index-level = ' + str(round(avgZoneVal*100, 5)) + ' cents/hr'
  
     avgRegionVal = Decimal(regionTotal/numMarkets)
     print '----------------------------------'
-    print 'region: ' + region + '\t index-level = ' + str(round(avgRegionVal, 5))
+    print 'region: ' + region + '\t index-level = ' + str(round(avgRegionVal*100, 5)) + ' cents/hr'
 
     return 
 #END computeAverage
@@ -146,7 +146,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     if spotIndex_init(args.region) == True:
-        print 'Connected to ' + args.region
+        print 'Connected to ' + args.region + ' at ' + str(datetime.utcnow())
     
     startTime = datetime.now() 
     
