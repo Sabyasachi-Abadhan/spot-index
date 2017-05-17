@@ -3,13 +3,14 @@ A Python-based tool for computing the cloud spot market indices.
 
 ### Usage
 ```
-$ python computeSpotIndex.py eu-west-1
-Connected to eu-west-1
-zone: eu-west-1b    index-level = 0.05042
-zone: eu-west-1c    index-level = 0.03382
-zone: eu-west-1a    index-level = 0.04827
+$ python computeSpotIndex.py us-east-2
+Connected to us-east-2
+zone: us-east-2c	 index-level = 0.27012 cents/hr
+zone: us-east-2b	 index-level = 0.27054 cents/hr
+zone: us-east-2a	 index-level = 0.27247 cents/hr
 -----------------
-region: eu-west-1   index-level = 0.04425
+region: us-east-2	 index-level = 0.27104 cents/hr
+
 ```
 
 ### More questions?
