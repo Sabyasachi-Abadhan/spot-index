@@ -1,5 +1,5 @@
 # spot-index
-A Python-based tool for computing the cloud spot markets indices.
+A Python-based tool for computing the cloud spot market indices.
 
 ### Usage
 ```
