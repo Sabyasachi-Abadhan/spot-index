@@ -13,4 +13,4 @@ region: eu-west-1   index-level = 0.04425
 ```
 
 ### More questions?
-Send a note to us, or read the full technical paper introducing [Cloud Spot Index](docs/IMC2017.pdf)
+Send a note to us, or read the full technical paper introducing [Cloud Spot Index](IMC2017.pdf)
